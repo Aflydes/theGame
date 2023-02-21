@@ -1,0 +1,64 @@
+@import url(fonts/fonts.css);
+a,
+body,
+div,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+iframe,
+img,
+input,
+label,
+li,
+nav,
+object,
+p,
+span,
+ul,
+textarea,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+:focus {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+main{
+    min-height: 90vh;
+}
+a,button{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth; 
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+    user-select: none;
+}
+.lock-scroll{
+    overflow: hidden;
+}

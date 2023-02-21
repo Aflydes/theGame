@@ -1,0 +1,18 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 0;
+    & .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.footer__level,
+.footer__enemy{
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+}

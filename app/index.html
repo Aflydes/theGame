@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>The Game</title>
+</head>
+<body>
+    <header class="header">
+   <div class="container">
+        <div class="header_weapon">
+            <div class="weapon__img">
+                <img src="" alt="" class="weapon__image-img">
+            </div>
+            <div class="weapon__info">
+                <div class="weapon__title"></div>
+                <div class="weapon__damage"></div>
+            </div>
+        </div>
+        <div class="header__lvl-title"></div>
+        <div class="header__hp">
+            <div class="header__hp-count">
+                <span class="header__hp-current"></span>
+                <span class="header__hp-max"></span>
+            </div>
+        </div>
+   </div>
+</header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="start-game">
+                <div class="start-game__inner">
+                    <h1 class="start-game__title">THE GAME</h1>
+                    <div class="start-game__menu">
+                        <p class="start-game__menu-text">Press button to start</p>
+                        <button href="#" class="start-game__button button js-start-game">
+                            <span class="button__body">start game</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <canvas width="0" height="0" class="playground" id="playground">Ваш браузер не поддерживает JavaScript и HTML5!</canvas>
+        </div>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__level">
+            level: <span class="level-number"></span>
+        </div>
+        <div class="footer__enemy">
+            Enemy: <span class="enemy-name"></span>
+        </div>
+    </div>
+</footer>
+    <script src="assets/js/main.js"></script>
+    <script type="module" src="assets/js/game.js"></script>
+</body>
+</html>
